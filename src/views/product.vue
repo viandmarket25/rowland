@@ -46,10 +46,12 @@
             </div>
           </div>
         </header>
+
+
+        
       </div>
   
     
-
 
       <div class="grid-container">
   <div class="grid-item photo">
@@ -57,9 +59,14 @@
   </div>
   <div class="grid-item description">
     <h3>Corrugated Box Digital Printer</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in nunc euismod, facilisis lectus eu, congue felis.</p>
+    <p>Automatic offline folder gluer stitcher used in corrugated carton box packaging folding gluing stitching. It adopts order
+
+memory system and servo motors controlling system.</p>
   </div>
   <div class="grid-item table">
+    
+    
+    
     <table class="" style="">
                     <thead>
                         <tr>
@@ -150,8 +157,13 @@
                         </tr>
                     </tbody>
                 </table>
+
+
+                
   </div>
 </div>
+
+
 
 
 
@@ -349,6 +361,7 @@
   <style scoped>
 .grid-container {
   display: grid;
+  max-height:2000px;
   grid-template-rows: auto 1fr auto;
   grid-gap: 20px;
 }
@@ -377,23 +390,23 @@
 }
 
 .description h3 {
-  font-size: 24px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
 .description p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
 .table {
-  overflow-x: auto;
-  overflow: hidden;
+ overflow:auto;
 }
 
 .table table {
   width: 100%;
-  height:auto;
+  min-height:400px;
+  max-height:2000px;
   border-collapse: collapse;
   table-layout: fixed;
 }
@@ -402,6 +415,7 @@
 .table td {
   padding: 8px;
   text-align:left;
+  font-size:13px;
 
 }
 

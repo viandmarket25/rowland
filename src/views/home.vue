@@ -244,7 +244,7 @@ export default {
     return{
       currentIndex: 0,
       images: [
-        { src: '/assets/images/1-1.jpg', alt: 'Banner 1' },
+        { src: '/assets/images/2-2.jpg', alt: 'Banner 1' },
        
       ]
     }

@@ -60,7 +60,9 @@
 
         <div class="product-grid">
             <div  v-for="(product,pindex) in products" :key="pindex"  class="product-item">
+                <router-link to="/product">
                 <img :src="product.src" alt="Product 1" class="product-image">
+                </router-link>
                 <div class="product-title">{{product.title}}</div>
             </div>
        
