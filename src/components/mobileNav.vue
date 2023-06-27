@@ -3,9 +3,11 @@
 
   <div class="container-">
  
-    <button  @click="toggleMenu" class="home-work-with-us button">
+    <button  @click="toggleMenu" style=" user-select: none;" class="home-work-with-us- button">
      
-      <img alt="image" src="/hamburger.svg" class="home-image" />
+
+      <MenuIcon style="color:#000; user-select: none;" class="home-image-"  />
+   
     </button>
     <transition name="slide">
       <div v-if="showMenu" class="menu-overlay">
@@ -48,7 +50,7 @@
 
 import NavLinks from '../components/nav-links'
 import { XIcon } from "@vue-hero-icons/outline"
-
+import { MenuIcon } from "@vue-hero-icons/outline"
 export default {
   data() {
     return {
@@ -58,7 +60,7 @@ export default {
   },
   components: {
   
-    NavLinks,XIcon 
+    NavLinks,XIcon ,MenuIcon 
  
   },
   methods: {
@@ -260,7 +262,7 @@ export default {
   border-radius: 70px;
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-unit);
-  background-color: rgb(229, 254, 88);
+  background-color:#202020;
 }
 .home-work-with-us:hover {
   opacity: 0.5;
@@ -287,7 +289,7 @@ export default {
   border-radius: 70px;
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-unit);
-  background-color: rgb(229, 254, 88);
+  background-color: #202020;
 }
 .home-work-with-us1:hover {
   opacity: 0.5;
@@ -375,7 +377,7 @@ export default {
   border-radius: 70px;
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-unit);
-  background-color: rgb(229, 254, 88);
+  background-color: #202020;
 }
 .home-work-with-us2:hover {
   opacity: 0.5;
@@ -480,7 +482,7 @@ export default {
   border-radius: 70px;
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-unit);
-  background-color: rgb(229, 254, 88);
+  background-color: #202020;
 }
 .home-preview {
   width: 100%;
@@ -1535,7 +1537,7 @@ export default {
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-unit);
   text-transform: lowercase;
-  background-color: rgb(229, 254, 88);
+  background-color: #202020;
 }
 .home-footer {
   width: 100%;

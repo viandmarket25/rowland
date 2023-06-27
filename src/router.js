@@ -8,6 +8,7 @@ import About from './views/aboutus'
 import News from './views/news'
 import Contact from './views/contact'
 import Products from './views/products'
+import Product from './views/product'
 
 import './style.css'
 
@@ -46,6 +47,11 @@ export default new Router({
       name: 'Products',
       path: '/products',
       component: Products,
+    },
+    {
+      name: 'Product',
+      path: '/product',
+      component: Product,
     },
   ],
 })

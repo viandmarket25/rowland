@@ -60,203 +60,39 @@
           </div>
         </header>
       </div>
-  
-  
-    
-      <div class="home-hero">
-        <div class="home-header">
-          <h1 class="home-text005">
-            PGA MACHINERY (YANTAI) CO., LTD
-          </h1>
-          <img alt="image" src="/mouse.svg" class="home-image02" />
-        </div>
-        <div class="banner-carousel">
-          <!---
-          <transition-group name="fade" mode="out-in">
-            
-            <img v-for="image in images" :key="image.src" :src="image.src" :alt="image.alt" :class="{ 'banner-image': true, active: currentIndex === image.src }">
-          </transition-group>
-        -->
-         
-        </div>
-  
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; justify-items: center;">
-  
-          <img v-for="image in images" :key="image.src" :src="image.src" :alt="image.alt" style="width: 100%; height: auto;">
-                
-          <!-- Add more images as needed -->
-        </div>
-       
-     
-      </div>
-      
       <div class="home-information">
         <div class="home-purpose">
-          <span class="home-caption">What we do</span>
+          <span class="home-caption">News</span>
           <span class="home-description">
-            We arrive at business-reflective design decisions by integrating
-            strategic thinking with mature design and transferrable functionality.
-            From helping transform the image of a legacy brand to creating an
-            ultra-modern identity for a space tech startup - we’re always up for a
-            fresh challenge.
+           
+
+
+
+
+About Us
+
+
+
+ROWLAND CO., LTD.
+
+As a professional corrugated box packaging and offset printing converting machines supplier since 2006.
+
+
+
+The main machines divided as corrugated box digital printer, automatic flexo printer slotter rotary die cutter, automatic folder gluer stitcher, automatic inline folder gluer stitcher, inline flexo folder gluer, automatic robot palletizer, automatic ink wastewater treatment equipment and automatic tying machine.
+
+
+
+Sinecerely welcome worldwide clients to us for the visits and cooperation.
           </span>
         </div>
        
+
+        
       </div>
   
+      <Footer/>
       
-  
-  
-  
-      
-      <footer class="home-footer">
-        <div class="home-header4">
-          <span class="home-branding2">Rowland</span>
-          <div class="home-socials">
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="home-link03"
-            >
-              <img alt="image" src="/facebook%20-%20negative.svg" class="social" />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="home-link04"
-            >
-              <img alt="image" src="/twitter%20-%20negative.svg" class="social" />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="home-link05"
-            >
-              <img alt="image" src="/dribbble%20-%20negative.svg" class="social" />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="home-link06"
-            >
-              <img alt="image" src="/instagram%20-%20negative.svg" class="social" />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="home-link07"
-            >
-              <img alt="image" src="/linkedin%20-%20negative.svg" class="social" />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="home-link08"
-            >
-              <img alt="image" src="/youtube%20-%20negative.svg" class="social" />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="home-link09"
-            >
-              <img alt="image" src="/telegram%20-%20negative.svg" class="social" />
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="home-link10"
-            >
-              <img alt="image" src="/medium%20-%20negative.svg" class="social" />
-            </a>
-          </div>
-        </div>
-    
-        <div class="home-locations">
-          <div class="home-location">
-            <span class="home-title08">United States</span>
-            <span class="home-details07">
-              <span>90210 Broadway Street</span>
-              <br />
-              <span>San Francisco</span>
-              <br />
-              <br />
-              <span>hola_us@hola.studio</span>
-            </span>
-          </div>
-          <div class="home-location1">
-            <span class="home-title09">Romania</span>
-            <span class="home-details08">
-              <span>115 Turzii Road</span>
-              <br />
-              <span>Cluj Napoca</span>
-              <br />
-              <br />
-              <span>hola_ro@hola.studio</span>
-            </span>
-          </div>
-          <div class="home-location2">
-            <span class="home-title10">United Kingdom</span>
-            <span class="home-details09">
-              <span>87–135 Brompton Road</span>
-              <br />
-              <span>London</span>
-              <br />
-              <br />
-              <span>hola_uk@hola.studio</span>
-            </span>
-          </div>
-          <div class="home-location3">
-            <span class="home-title11">Spain</span>
-            <span class="home-details10">
-              <span>34-36 Carrer de Tele</span>
-              <br />
-              <span>Barcelona</span>
-              <br />
-              <br />
-              <span>hola_sp@hola.studio</span>
-            </span>
-          </div>
-        </div>
-        <div class="home-socials1">
-          <div class="home-row4">
-            <a href="https://example.com" target="_blank" rel="noreferrer noopener">
-              <img alt="image" src="/facebook%20-%20negative.svg" class="social" />
-            </a>
-            <a href="https://example.com" target="_blank" rel="noreferrer noopener">
-              <img alt="image" src="/twitter%20-%20negative.svg" class="social" />
-            </a>
-            <a href="https://example.com" target="_blank" rel="noreferrer noopener">
-              <img alt="image" src="/dribbble%20-%20negative.svg" class="social" />
-            </a>
-            <a href="https://example.com" target="_blank" rel="noreferrer noopener">
-              <img alt="image" src="/instagram%20-%20negative.svg" class="social" />
-            </a>
-          </div>
-          <div class="home-row5">
-            <a href="https://example.com" target="_blank" rel="noreferrer noopener">
-              <img alt="image" src="/linkedin%20-%20negative.svg" class="social" />
-            </a>
-            <a href="https://example.com" target="_blank" rel="noreferrer noopener">
-              <img alt="image" src="/youtube%20-%20negative.svg" class="social" />
-            </a>
-            <a href="https://example.com" target="_blank" rel="noreferrer noopener">
-              <img alt="image" src="/telegram%20-%20negative.svg" class="social" />
-            </a>
-            <a href="https://example.com" target="_blank" rel="noreferrer noopener">
-              <img alt="image" src="/medium%20-%20negative.svg" class="social" />
-            </a>
-          </div>
-        </div>
-      </footer>
     </div>
   </template>
   
@@ -265,14 +101,14 @@
   import NavLinks from '../components/nav-links'
   import AppTestimonial from '../components/testimonial'
   import MobileNavigation from '../components/mobileNav.vue';
-  
+  import Footer from '../components/footer.vue'
   export default {
     name: 'Home',
     components: {
       MobileNavigation,
       NavLinks,
       DangerousHTML,
-      AppTestimonial,
+      AppTestimonial,Footer
     },
     mounted() {
       setInterval(this.showNextImage, 3000);
@@ -285,11 +121,11 @@
       }
     },
     metaInfo: {
-      title: 'Hola template',
+      title: 'Rowland',
       meta: [
         {
           property: 'og:title',
-          content: 'Hola template',
+          content: 'Rowland',
         },
       ],
     },
@@ -407,7 +243,7 @@
     border-radius: 70px;
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-unit);
-    background-color: rgb(229, 254, 88);
+    background-color: #202020;
   }
   .home-work-with-us:hover {
     opacity: 0.5;
@@ -434,7 +270,7 @@
     border-radius: 70px;
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-unit);
-    background-color: rgb(229, 254, 88);
+    background-color: #202020
   }
   .home-work-with-us1:hover {
     opacity: 0.5;
@@ -522,7 +358,7 @@
     border-radius: 70px;
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-unit);
-    background-color: rgb(229, 254, 88);
+    background-color: #202020
   }
   .home-work-with-us2:hover {
     opacity: 0.5;
@@ -627,7 +463,7 @@
     border-radius: 70px;
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-unit);
-    background-color: rgb(229, 254, 88);
+    background-color: #202020
   }
   .home-preview {
     width: 100%;
@@ -1682,7 +1518,7 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-unit);
     text-transform: lowercase;
-    background-color: rgb(229, 254, 88);
+    background-color: #202020
   }
   .home-footer {
     width: 100%;

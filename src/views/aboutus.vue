@@ -42,20 +42,7 @@
                   </svg>
                 </div>
               </div>
-              <nav
-                data-thq="thq-mobile-menu-nav-links"
-                data-role="Nav"
-                class="home-middle"
-              >
-                <div class="home-links">
-                  <span class="navLink">work</span>
-                  <span class="navLink">services</span>
-                  <span class="navLink">contact</span>
-                </div>
-                <button class="home-work-with-us2 button">
-                  <span class="home-text004">work with us</span>
-                </button>
-              </nav>
+           
             </div>
           </div>
         </header>
@@ -93,7 +80,7 @@ The main machines divided as corrugated box digital printer, automatic flexo pri
 
 
 
-Sinecerely welcome worldwide clients to us for the visits and cooperation.
+Sincerely welcome worldwide clients to us for the visits and cooperation.
           </span>
         </div>
        
@@ -242,11 +229,11 @@ Sinecerely welcome worldwide clients to us for the visits and cooperation.
       }
     },
     metaInfo: {
-      title: 'Hola template',
+      title: 'Rowland',
       meta: [
         {
           property: 'og:title',
-          content: 'Hola template',
+          content: 'Rowland',
         },
       ],
     },
@@ -364,7 +351,7 @@ Sinecerely welcome worldwide clients to us for the visits and cooperation.
     border-radius: 70px;
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-unit);
-    background-color: rgb(229, 254, 88);
+    background-color: #202020
   }
   .home-work-with-us:hover {
     opacity: 0.5;
@@ -391,7 +378,7 @@ Sinecerely welcome worldwide clients to us for the visits and cooperation.
     border-radius: 70px;
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-unit);
-    background-color: rgb(229, 254, 88);
+    background-color: #202020
   }
   .home-work-with-us1:hover {
     opacity: 0.5;
@@ -479,7 +466,7 @@ Sinecerely welcome worldwide clients to us for the visits and cooperation.
     border-radius: 70px;
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-unit);
-    background-color: rgb(229, 254, 88);
+    background-color: #202020
   }
   .home-work-with-us2:hover {
     opacity: 0.5;
@@ -584,7 +571,7 @@ Sinecerely welcome worldwide clients to us for the visits and cooperation.
     border-radius: 70px;
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-unit);
-    background-color: rgb(229, 254, 88);
+    background-color: #202020
   }
   .home-preview {
     width: 100%;
@@ -1639,7 +1626,7 @@ Sinecerely welcome worldwide clients to us for the visits and cooperation.
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-unit);
     text-transform: lowercase;
-    background-color: rgb(229, 254, 88);
+    background-color: #202020
   }
   .home-footer {
     width: 100%;

@@ -42,20 +42,7 @@
                   </svg>
                 </div>
               </div>
-              <nav
-                data-thq="thq-mobile-menu-nav-links"
-                data-role="Nav"
-                class="home-middle"
-              >
-                <div class="home-links">
-                  <span class="navLink">work</span>
-                  <span class="navLink">services</span>
-                  <span class="navLink">contact</span>
-                </div>
-                <button class="home-work-with-us2 button">
-                  <span class="home-text004">work with us</span>
-                </button>
-              </nav>
+             
             </div>
           </div>
         </header>
@@ -266,11 +253,11 @@
       }
     },
     metaInfo: {
-      title: 'Hola template',
+      title: 'Rowland',
       meta: [
         {
           property: 'og:title',
-          content: 'Hola template',
+          content: 'Rowland',
         },
       ],
     },
@@ -437,7 +424,7 @@ button[type="submit"] {
     border-radius: 70px;
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-unit);
-    background-color: rgb(229, 254, 88);
+    background-color: #202020
   }
   .home-work-with-us:hover {
     opacity: 0.5;
@@ -464,7 +451,7 @@ button[type="submit"] {
     border-radius: 70px;
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-unit);
-    background-color: rgb(229, 254, 88);
+    background-color: #202020
   }
   .home-work-with-us1:hover {
     opacity: 0.5;
@@ -552,7 +539,7 @@ button[type="submit"] {
     border-radius: 70px;
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-unit);
-    background-color: rgb(229, 254, 88);
+    background-color: #202020
   }
   .home-work-with-us2:hover {
     opacity: 0.5;
@@ -657,7 +644,7 @@ button[type="submit"] {
     border-radius: 70px;
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-unit);
-    background-color: rgb(229, 254, 88);
+    background-color: #202020
   }
   .home-preview {
     width: 100%;
@@ -1712,7 +1699,7 @@ button[type="submit"] {
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-unit);
     text-transform: lowercase;
-    background-color: rgb(229, 254, 88);
+    background-color: #202020
   }
   .home-footer {
     width: 100%;
