@@ -53,122 +53,49 @@
   
     
 
-      <div class="grid-container">
-  <div class="grid-item photo">
-    <img src="/assets/images/1-1.jpg" alt="Product Photo">
+  <template>
+  <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <div style="width: 100%; max-width: 800px;">
+      <!-- Left Section: Product Photo -->
+      <div style="width: 100%; margin-bottom: 16px;">
+        <img src="/assets/images/1-1.jpg" alt="Product Photo" style="width: 100%; height: auto;">
+      </div>
+
+      <!-- Right Section: Product Details -->
+      <div style="padding: 0 16px;">
+        <h1 style="font-size: 18px; font-weight: bold; margin-bottom: 16px;">Corrugated Box Digital Printer</h1>
+        <p style="color: #666; margin-bottom: 16px;">Automatic offline folder gluer stitcher used in corrugated carton box packaging folding gluing stitching. It adopts order memory system and servo motors controlling system.</p>
+
+        <div style="overflow-x: auto;">
+          <table style="border-collapse: collapse; width: 100%;">
+            <thead>
+              <tr>
+                <th style="padding: 8px; border: 1px solid #f1f1f1; text-align: left;">Model</th>
+                <th style="padding: 8px; border: 1px solid #f1f1f1; text-align: left;">JET-2500</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="padding: 8px; border: 1px solid #f1f1f1; text-align: left;">Material feeder mode</td>
+                <td style="padding: 8px; border: 1px solid #f1f1f1; text-align: left;">1 sheet up to max 2 sheets</td>
+              </tr>
+              <tr>
+                <td style="padding: 8px; border: 1px solid #f1f1f1; text-align: left;">Image format</td>
+                <td style="padding: 8px; border: 1px solid #f1f1f1; text-align: left;">PDF，TIF</td>
+              </tr>
+              <tr>
+                <td style="padding: 8px; border: 1px solid #f1f1f1; text-align: left;">Printing head</td>
+                <td style="padding: 8px; border: 1px solid #f1f1f1; text-align: left;">Epson</td>
+              </tr>
+              <!-- Add more rows here -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="grid-item description">
-    <h3>Corrugated Box Digital Printer</h3>
-    <p>Automatic offline folder gluer stitcher used in corrugated carton box packaging folding gluing stitching. It adopts order
+</template>
 
-memory system and servo motors controlling system.</p>
-  </div>
-  <div class="grid-item table">
-    
-    
-    
-    <table class="" style="">
-                    <thead>
-                        <tr>
-                            <th>Model</th>
-                            <th>JET-2500</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Material feeder mode</td>
-                            <td>1 sheet up to max 2 sheets</td>
-                        </tr>
-                        <tr>
-                            <td>Image format</td>
-                            <td>PDF，TIF</td>
-                        </tr>
-                        <tr>
-                            <td>Printing head</td>
-                            <td>Epson</td>
-                        </tr>
-                        <tr>
-                            <td>The quantity of printing head</td>
-                            <td>8 pieces</td>
-                        </tr>
-                        <tr>
-                            <td>Max eight printing head width</td>
-                            <td>263mm</td>
-                        </tr>
-                        <tr>
-                            <td>Max printing speed</td>
-                            <td>600m<sup>2</sup>/hour(1pass), 300m<sup>2</sup>/hour(2pass)</td>
-                        </tr>
-                        <tr>
-                            <td>Printing resolution</td>
-                            <td>360*600DPI(1pass),360*1200DPI(2pass)</td>
-                        </tr>
-                        <tr>
-                            <td>Printing colors</td>
-                            <td>CMYK</td>
-                        </tr>
-                        <tr>
-                            <td>Indoor temperature</td>
-                            <td>15-27 degree</td>
-                        </tr>
-                        <tr>
-                            <td>Humidity</td>
-                            <td>20%-70%</td>
-                        </tr>
-                        <tr>
-                            <td>Max board feeding size</td>
-                            <td>2500*2000mm</td>
-                        </tr>
-                        <tr>
-                            <td>Min board feeding size</td>
-                            <td>550*400mm</td>
-                        </tr>
-                        <tr>
-                            <td>Max printing width</td>
-                            <td>2480mm</td>
-                        </tr>
-                        <tr>
-                            <td>The thickness of corrugated</td>
-                            <td>2-20mm</td>
-                        </tr>
-                        <tr>
-                            <td>Computer operation system</td>
-                            <td>Windows 10</td>
-                        </tr>
-                        <tr>
-                            <td>Air supply</td>
-                            <td>Max 1.0Mpa</td>
-                        </tr>
-                        <tr>
-                            <td>Total power</td>
-                            <td>10KW</td>
-                        </tr>
-                        <tr>
-                            <td>Voltage supply</td>
-                            <td>380V,50HZ,3Phase</td>
-                        </tr>
-                        <tr>
-                            <td>Machine weight</td>
-                            <td>4600kgs</td>
-                        </tr>
-                        <tr>
-                            <td>Machine dimension</td>
-                            <td>4500*4800*2100mm</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-
-                
-  </div>
-</div>
-
-
-
-
-
- 
-  
   
       
       <footer class="home-footer">
